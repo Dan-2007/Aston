@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task1;
 
 public abstract class Mammal extends Animal {
 

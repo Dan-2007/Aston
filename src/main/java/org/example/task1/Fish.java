@@ -1,6 +1,6 @@
-package org.example;
+package org.example.task1;
 
-import org.example.interfaces.Underwater;
+import org.example.task1.interfaces.Underwater;
 
 public abstract class Fish extends Animal implements Underwater {
 

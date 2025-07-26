@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example.task1.interfaces;
 
 public interface Underwater {
 

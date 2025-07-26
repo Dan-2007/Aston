@@ -1,7 +1,7 @@
-package org.example.instances;
+package org.example.task1.instances;
 
-import org.example.Mammal;
-import org.example.interfaces.Underwater;
+import org.example.task1.Mammal;
+import org.example.task1.interfaces.Underwater;
 
 public class Whale extends Mammal implements Underwater {
 

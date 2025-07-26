@@ -1,8 +1,8 @@
-package org.example;
+package org.example.task1;
 
-import org.example.instances.Bear;
-import org.example.instances.Kitty;
-import org.example.instances.Whale;
+import org.example.task1.instances.Bear;
+import org.example.task1.instances.Kitty;
+import org.example.task1.instances.Whale;
 
 
 public class Main {
