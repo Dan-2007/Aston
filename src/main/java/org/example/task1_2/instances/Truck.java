@@ -1,8 +1,8 @@
-package org.example.task2.instances;
+package org.example.task1_2.instances;
 
-import org.example.task2.Vehicle;
-import org.example.task2.interfaces.FreightCarrying;
-import org.example.task2.interfaces.Wheeled;
+import org.example.task1_2.Vehicle;
+import org.example.task1_2.interfaces.FreightCarrying;
+import org.example.task1_2.interfaces.Wheeled;
 
 public class Truck extends Vehicle implements Wheeled, FreightCarrying {
     public Truck(String name) {

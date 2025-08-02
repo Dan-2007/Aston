@@ -1,10 +1,10 @@
-package org.example.task2.instances;
+package org.example.task1_2.instances;
 
-import org.example.task2.Vehicle;
-import org.example.task2.interfaces.FreightCarrying;
-import org.example.task2.interfaces.PropellerDriven;
-import org.example.task2.interfaces.Wheeled;
-import org.example.task2.interfaces.Winged;
+import org.example.task1_2.Vehicle;
+import org.example.task1_2.interfaces.FreightCarrying;
+import org.example.task1_2.interfaces.PropellerDriven;
+import org.example.task1_2.interfaces.Wheeled;
+import org.example.task1_2.interfaces.Winged;
 
 public class Plane extends Vehicle implements Winged, Wheeled, PropellerDriven, FreightCarrying {
     public Plane(String name) {

@@ -1,4 +1,4 @@
-package org.example.task2.interfaces;
+package org.example.task1_2.interfaces;
 
 public interface PropellerDriven {
     void offWeGo();

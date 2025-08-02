@@ -1,9 +1,9 @@
-package org.example.task2.instances;
+package org.example.task1_2.instances;
 
-import org.example.task2.Vehicle;
-import org.example.task2.interfaces.FreightCarrying;
-import org.example.task2.interfaces.PropellerDriven;
-import org.example.task2.interfaces.Wheeled;
+import org.example.task1_2.Vehicle;
+import org.example.task1_2.interfaces.FreightCarrying;
+import org.example.task1_2.interfaces.PropellerDriven;
+import org.example.task1_2.interfaces.Wheeled;
 
 public class Copter extends Vehicle implements Wheeled, PropellerDriven, FreightCarrying {
     public Copter(String name) {

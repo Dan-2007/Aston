@@ -1,6 +1,6 @@
-package org.example.task1.instances;
+package org.example.task1_1.instances;
 
-import org.example.task1.Mammal;
+import org.example.task1_1.Mammal;
 
 public class Bear extends Mammal {
 

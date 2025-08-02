@@ -1,7 +1,7 @@
-package org.example.task2.instances;
+package org.example.task1_2.instances;
 
-import org.example.task2.Vehicle;
-import org.example.task2.interfaces.Wheeled;
+import org.example.task1_2.Vehicle;
+import org.example.task1_2.interfaces.Wheeled;
 
 public class Taxi extends Vehicle implements Wheeled {
     public Taxi(String name) {

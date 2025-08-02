@@ -1,8 +1,10 @@
-package org.example.task1;
+package org.example.task1_1;
 
-import org.example.task1.instances.Bear;
-import org.example.task1.instances.Kitty;
-import org.example.task1.instances.Whale;
+import org.example.task1_1.instances.Bear;
+import org.example.task1_1.instances.Kitty;
+import org.example.task1_1.instances.Whale;
+
+import java.util.ArrayList;
 
 
 public class Main {
