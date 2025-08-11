@@ -26,9 +26,14 @@ public class Main {
         System.out.println(myArrayList.getSize());*/
 
         MyHashSet<String> myHashSet = new MyHashSet<>();
-        List<String> myList = new ArrayList<>(Arrays.asList("Love", "Hate", "Sex", "Pain", "Love"));
+        List<String> myList = new ArrayList<>(Arrays.asList("Love", "Hate", "Sex", "Pain", "Love", "Hate"));
         for (String s : myList)
             myHashSet.add(s);
+        myHashSet.add("Liver");
+        myHashSet.add("Shiver");
+        myHashSet.remove("Hate");
+        myHashSet.remove("Love");
+        
         for (Object e : myHashSet)
             System.out.println(e.toString());
         }
