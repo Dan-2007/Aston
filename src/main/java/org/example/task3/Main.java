@@ -15,13 +15,12 @@ public class Main {
     }
 
     private static void start() throws MyWriteException, MyReadException {
-        try (FileWriter writer = new FileWriter("Testfile.txt", false)) {
+        try (FileWriter writer = new FileWriter("T.file", false)) {
             writer.write("One more string into it!\n");
         } catch (IOException exception) {
             throw new MyWriteException(exception);
         }
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader("Testfile.txt"));
+        try (BufferedReader reader = new BufferedReader(new FileReader("ile.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
